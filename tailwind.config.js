@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': 'url(\'/src/assets/images/banner.jpg\')'
+        'banner': 'url(\'/src/assets/images/banner.jpg\')',
+        'banner-e-learning': 'url(\'/src/assets/images/e-learning-banner.jpg\')',
       },
       fontFamily: {
         sans: ['Poppins', ...fontFamily.sans]
