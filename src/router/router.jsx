@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
 } from 'react-router-dom';
@@ -8,7 +8,7 @@ import Beranda from '../pages/Beranda';
 import ELearning from '../pages/ELearning';
 
 // INFO : Tambahkan halaman baru disini...
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Beranda />} />
