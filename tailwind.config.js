@@ -1,5 +1,7 @@
 import { fontFamily } from 'tailwindcss/defaultTheme';
 
+const defaultFonts = ['Poppins', ...fontFamily.sans];
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -10,7 +12,8 @@ export default {
         'banner-e-learning': 'url(\'/src/assets/images/e-learning-banner.jpg\')',
       },
       fontFamily: {
-        sans: ['Poppins', ...fontFamily.sans]
+        sans: defaultFonts,
+        'vietnam-pro': ['Be Vietnam Pro', ...defaultFonts],
       },
       screens: {
         sm: '240px',
