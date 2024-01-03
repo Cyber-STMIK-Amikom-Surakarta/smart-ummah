@@ -12,6 +12,13 @@ export default {
       fontFamily: {
         sans: ['Poppins', ...fontFamily.sans]
       },
+      screens: {
+        sm: '240px',
+        md: '640px',
+        lg: '800px',
+        xl: '1024px',
+        '2xl': '1280px',
+      },
       boxShadow: {
         '3d': '0px 2px 5px -2px rgba(0, 0, 0, 0.25);',
       },
