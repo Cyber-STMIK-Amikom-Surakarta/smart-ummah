@@ -11,7 +11,10 @@ export default {
       },
       fontFamily: {
         sans: ['Poppins', ...fontFamily.sans]
-      }
+      },
+      boxShadow: {
+        '3d': '0px 2px 5px -2px rgba(0, 0, 0, 0.25);',
+      },
     },
   },
   plugins: [],
