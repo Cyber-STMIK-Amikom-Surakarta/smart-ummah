@@ -10,6 +10,7 @@ export default {
       backgroundImage: {
         'banner': 'url(\'/src/assets/images/banner.jpg\')',
         'banner-e-learning': 'url(\'/src/assets/images/e-learning-banner.jpg\')',
+        'banner-podcast': 'radial-gradient(345.16% 343.52% at 51.82% -159.87%, #8ADAB2 0%, rgba(138, 218, 178, 0.40) 100%)',
       },
       fontFamily: {
         sans: defaultFonts,
