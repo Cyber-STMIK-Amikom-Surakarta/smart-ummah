@@ -34,8 +34,21 @@ export default function Donasi({ donasi }) {
   )
 
   return (
+    <>
     <div className="relative flex sm:flex-col lg:flex-row items-center justify-center gap-4">
       {DonasiCards}
     </div>
+      <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
+        <h1 className='text-center text-white text-3xl'>
+Ajukan Galang Dana
+        </h1>
+        <h2 className='text-center text-white text-lg'>
+Terbuka kesempatan bagi Anda untuk mendaftarkan Galang Dana Anda bersama kami!
+        </h2>
+        <PrimaryButton className='w-[300px] py-2 px-8 self-center'>
+          Ajukan
+        </PrimaryButton>
+      </div>
+    </>
   )
 }
