@@ -5,8 +5,11 @@ import PlayIcon from '../../assets/images/play.svg'
 
 function PodcastCard({ img, title, author }) {
   return (
-    <div className='flex flex-col gap-2 rounded md:w-[100%] lg:w-[calc(100%/5)] text-white backdrop-blur-[34px] bg-gradient-to-b from-green-700 via-green-600 via-70% to-green-200'>
+    <div className='grid grid-rows-1 min-w-[100%] min-h-[100%] gap-2 rounded text-white backdrop-blur-[34px] bg-gradient-to-b from-green-700 via-green-600 via-70% to-green-200'>
       <img src={img} alt={title} className='h-[300px] w-[100%] object-cover rounded-t' />
+      <h2 className='text-white text-xl mx-2'>
+        {title}
+      </h2>
       <p className='mx-2'>
         {author}
       </p>
@@ -50,7 +53,7 @@ export default function Podcast({ podcast }) {
 
   return (
     <>
-      <div className='relative flex lg:flex-row md:flex-col flex-wrap gap-4 justify-center items-center'>
+      <div className='relative grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center'>
         {PodcastList}
       </div>
       <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
