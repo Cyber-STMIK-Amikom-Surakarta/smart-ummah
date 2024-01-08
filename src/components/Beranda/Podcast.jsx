@@ -30,14 +30,44 @@ function PodcastCard({ img, title, author }) {
   )
 }
 
+function SocialMediaIcon({ name }) {
+  return (
+    <span className='flex gap-1 text-white'>
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" className='pb-1'>
+        <path d="M26.6673 8L12.0007 22.6667L5.33398 16" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <p>
+        {name}
+      </p>
+    </span>
+  )
+}
+
 export default function Podcast({ podcast }) {
   const PodcastList = podcast.map((podcast) =>
     <PodcastCard key={podcast.title} img={podcast.img} title={podcast.title} author={podcast.author} />
   )
 
   return (
-    <div className='relative flex lg:flex-row md:flex-col flex-wrap gap-4 justify-center items-center'>
-      {PodcastList}
-    </div>
+    <>
+      <div className='relative flex lg:flex-row md:flex-col flex-wrap gap-4 justify-center items-center'>
+        {PodcastList}
+      </div>
+      <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
+        <h1 className='text-center text-white text-3xl'>
+          Suaraku untuk Kebesaran-Nya
+        </h1>
+        <h2 className='text-center text-white text-lg'>
+          Podcast ini membawa pencerahan spiritual dengan membahas konsep-konsep Islami
+        </h2>
+        <div className="flex flex-row gap-8 items-center justify-center">
+          <SocialMediaIcon name="Spotify" />
+          <SocialMediaIcon name="Instagram" />
+          <SocialMediaIcon name="Tiktok" />
+          <SocialMediaIcon name="Noice" />
+          <SocialMediaIcon name="Youtube" />
+        </div>
+      </div>
+    </>
   )
 }
