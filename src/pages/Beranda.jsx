@@ -23,11 +23,11 @@ export default function Beranda() {
       <ProgramKami></ProgramKami>
       <Kursus></Kursus>
       <Podcast podcast={PodcastData}></Podcast>
-      <Event EventKami={EventData} ></Event>   
+      <Event event={EventData} ></Event>   
       <Donasi donasi={donasi}></Donasi>
       <Mitra></Mitra>
       <Kontak></Kontak>
-      <Blog blog={blog}></Blog> 
+      <Blog articles={blog}></Blog> 
       <Footer></Footer>
     </div>
   );
