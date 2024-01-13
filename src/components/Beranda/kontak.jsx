@@ -1,10 +1,11 @@
 
 export default function kontak () {
     return (
-      <div className=" bg-[#fff] w-full px-[90px] flex justify-around items-center">
-      <section class="mb-32">
+      <div class="bg-white py-8">  
+      <div className="w-full px-[90px] flex justify-around items-center">
+      <section class="">
         <div class="flex flex-wrap">
-          <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
+          <div class="mt-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
           <h5 class="text-[#5D5A88]">KONTAK</h5>
             <h2 class=" text-[#5D5A88] text-3xl font-bold">Hubungi Kami</h2>
             <p class="mb-6 text-[#5D5A88]">
@@ -73,6 +74,7 @@ export default function kontak () {
           </div>
         </div>
       </section>
+    </div>
     </div>
   
     )
