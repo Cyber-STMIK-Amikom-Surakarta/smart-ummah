@@ -5,8 +5,8 @@ import PlayIcon from '../../assets/images/play.svg'
 
 function PodcastCard({ img, title, author }) {
   return (
-    <div className='grid grid-rows-1 min-w-[100%] min-h-[100%] gap-2 rounded text-white backdrop-blur-[34px] bg-gradient-to-b from-green-700 via-green-600 via-70% to-green-200'>
-      <img src={img} alt={title} className='h-[300px] w-[100%] object-cover rounded-t' />
+    <div className='grid grid-rows-1 min-w-[100%] min-h-[100%] gap-2 rounded-xl text-white backdrop-blur-[34px] bg-gradient-to-b from-green-700 via-green-600 via-70% to-green-200'>
+      <img src={img} alt={title} className='h-[300px] w-[100%] object-cover rounded-xl' />
       <h2 className='text-white text-xl mx-2'>
         {title}
       </h2>
@@ -53,10 +53,21 @@ export default function Podcast({ podcast }) {
 
   return (
     <>
-      <div className='relative grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center'>
+      <div class=" w-full px-[90px] justify-around items-center pb-8 flex flex-row">
+      <div>
+        <h1 class= "font-bold text-[60px] text-[#5D5A88]">Podcast Islami</h1>
+       <p class="font-light text-[18px] text-[#5D5A88]">Podcast ini membawa pencerahan spiritual dengan membahas konsep-konsep Islami,</p> 
+      </div>
+    <p class=" text-sm text-[#5D5A88] font-semibold font-poppins ">Lihat Semua</p>
+  </div>
+  
+
+      <div className='w-full px-[90px] relative grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center'>
         {PodcastList}
       </div>
-      <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
+
+<div className=' px-[90px]'>
+      <div className='flex flex-col gap-4 p-8 mt-4 bg-banner-podcast rounded-xl '>
         <h1 className='text-center text-white text-3xl'>
           Suaraku untuk Kebesaran-Nya
         </h1>
@@ -70,6 +81,7 @@ export default function Podcast({ podcast }) {
           <SocialMediaIcon name="Noice" />
           <SocialMediaIcon name="Youtube" />
         </div>
+      </div>
       </div>
     </>
   )
