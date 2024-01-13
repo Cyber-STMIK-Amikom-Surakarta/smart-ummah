@@ -9,7 +9,7 @@ export default function Beranda() {
           Kami hadir untuk membantu memperkaya pengetahuan Islami dan membimbing langkah Anda menuju kesuksesan yang berkelanjutan.
         </p>
       </div>
-      <Button>Join Our Community</Button>
+      <Button>Gabung Bersama Kami</Button>
     </div>
   ) 
 } 

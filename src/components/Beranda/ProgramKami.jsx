@@ -27,8 +27,7 @@ export default function ProgramKami() {
             Kursus Pembelajaran
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Temukan ribuan kursus dan modul interaktif yang dirancang khusus untuk memberdayakan Anda
           </p>
         </div>
 
@@ -38,8 +37,7 @@ export default function ProgramKami() {
             Podcast Islami
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Podcast ini membawa pencerahan spiritual dengan membahas konsep-konsep Islami masa kini
           </p>
         </div>
 
@@ -49,8 +47,7 @@ export default function ProgramKami() {
             Event
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Kami dengan senang hati menghadirkan serangkaian acara yang dirancang untuk memperdalam spiritualitas
           </p>
         </div>
 
@@ -60,8 +57,7 @@ export default function ProgramKami() {
             Donasi
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Bantu kami menyediakan bantuan kepada mereka yang membutuhkan dengan memberikan donasi online melalui platform aman kami. 
           </p>
         </div>
 
@@ -71,8 +67,7 @@ export default function ProgramKami() {
             Artikel
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Artikel kami bertujuan memberikan wawasan, inspirasi, dan panduan praktis untuk membantu Anda memperkuat nilai-nilai Islami dalam kehidupan 
           </p>
         </div>
 
@@ -82,8 +77,7 @@ export default function ProgramKami() {
             Partnership
           </p>
           <p className="text-center">
-            Lorem ipsum dolor sit amet consecte tur adipiscing elit semper dalar
-            cons elementum tempus hac.
+          Kami percaya bahwa kolaborasi adalah kunci untuk mencapai tujuan bersama dan memberikan dampak yang lebih besar dalam masyarakat.
           </p>
         </div>
       </div>

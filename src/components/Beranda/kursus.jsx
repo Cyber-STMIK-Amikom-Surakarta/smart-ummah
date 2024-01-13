@@ -1,7 +1,7 @@
 export default function Kursus() {
     return (
   
-  <div class="bg-[#F7F7F8]">  
+  <div class="bg-[#F7F7F8] pb-8">  
   <div class=" w-full px-[90px] justify-around items-center pb-8 flex flex-row">
       <div>
         <h1 class= "font-bold text-[60px] text-[#5D5A88]">Kursus Pembelajaran</h1>
