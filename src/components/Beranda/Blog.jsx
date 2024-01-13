@@ -18,12 +18,18 @@ export default function Blog({ articles }) {
   )
 
   return (
-    <section className="flex flex-col gap-4 justify-center items-center">
-      <h1 className="text-5xl font-bold text-[#5D5A88]">Blog</h1>
-      <p className="text-[#6A6A6A] text-lg text-center w-[70%] font-semibold">membahas langkah-langkah praktis menuju kebaikan dan bagaimana Islam memberikan pedoman untuk mencapai ketenangan batin.</p>
-      <div className="flex sm:flex-col md:flex-row gap-4 justify-center items-center">
+    <div className="flex flex-col justify-center items-center w-full my-16 bg-[#F7F7F8] py-8">
+      <div className="flex flex-col  items-center justify-center max-w-[1080px]">
+        <p className="text-6xl text-[#5D5A88] font-semibold mb-4">
+          Artikel
+        </p>
+        <p className="text-[#9295A3] text-2xl text-center h-[117px]">
+        Membahas langkah-langkah praktis menuju kebaikan dan bagaimana Islam memberikan pedoman untuk mencapai ketenangan batin.
+        </p>
+      </div>
+      <div className="flex sm:flex-col md:flex-row gap-4 justify-center items-center mx-[90px]">
         {Articles}
       </div>
-    </section>
+    </div>
   );
 }

@@ -35,6 +35,7 @@ export default function Donasi({ donasi }) {
 
   return (
     <>
+      <div class="bg-white py-8">  
       <div class=" w-full px-[90px] justify-around items-center pt-8 flex flex-row">
       <div>
         <h1 class= "font-bold text-[60px] text-[#5D5A88]">Donasi</h1>
@@ -56,6 +57,7 @@ Terbuka kesempatan bagi Anda untuk mendaftarkan Galang Dana Anda bersama kami!
         <PrimaryButton className='w-[300px] py-2 px-8 self-center'>
           Ajukan
         </PrimaryButton>
+      </div>
       </div>
       </div>
     </>
