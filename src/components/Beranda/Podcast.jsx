@@ -5,7 +5,7 @@ import PlayIcon from '../../assets/images/play.svg'
 
 function PodcastCard({ img, title, author }) {
   return (
-    <div className='grid grid-rows-1 min-w-[100%] min-h-[100%] gap-2 rounded-xl text-white backdrop-blur-[34px] bg-gradient-to-b from-green-500 via-green-400 via-70% to-green-200'>
+    <div id="podcast" className='grid grid-rows-1 min-w-[100%] min-h-[100%] gap-2 rounded-xl text-white backdrop-blur-[34px] bg-gradient-to-b from-green-500 via-green-400 via-70% to-green-200'>
       <img src={img} alt={title} className='h-[300px] w-[100%] object-cover rounded-xl' />
       <h2 className='text-white text-xl mx-2'>
         {title}

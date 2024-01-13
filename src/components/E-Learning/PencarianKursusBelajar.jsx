@@ -1,4 +1,3 @@
-import PrimaryButton from '../../shared/PrimaryButton';
 import SearchIcon from '../../assets/images/Search.svg';
 
 export default function PencarianKursusBelajar() {

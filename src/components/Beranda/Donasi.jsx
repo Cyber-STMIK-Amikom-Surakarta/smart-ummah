@@ -29,36 +29,36 @@ function DonasiCard({ donasi }) {
 }
 
 export default function Donasi({ donasi }) {
-  const DonasiCards = donasi.map((donasi) => 
+  const DonasiCards = donasi.map((donasi) =>
     <DonasiCard donasi={donasi} />
   )
 
   return (
     <>
-      <div class="bg-white py-8">  
-      <div class=" w-full px-[90px] justify-around items-center pt-8 flex flex-row">
-      <div>
-        <h1 class= "font-bold text-[60px] text-[#5D5A88]">Donasi</h1>
-       <p class="font-light text-[18px] text-[#5D5A88]">Setiap sumbangan Anda memiliki potensi besar untuk membuat perbedaan yang nyata. </p> 
-      </div>
-    <p class=" text-sm text-[#5D5A88] font-semibold font-poppins ">Lihat Semua</p>
-  </div>
-    <div className=" w-full px-[90px] py-8 relative flex sm:flex-col lg:flex-row items-center justify-center gap-4 ">
-      {DonasiCards}
-    </div>
-    <div className='px-[90px]'>
-      <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
-        <h1 className='text-center text-white text-3xl'>
-Ajukan Galang Dana
-        </h1>
-        <h2 className='text-center text-white text-lg'>
-Terbuka kesempatan bagi Anda untuk mendaftarkan Galang Dana Anda bersama kami!
-        </h2>
-        <PrimaryButton className='w-[300px] py-2 px-8 self-center'>
-          Ajukan
-        </PrimaryButton>
-      </div>
-      </div>
+      <div class="bg-white py-8" id="donasi">
+        <div class=" w-full px-[90px] justify-around items-center pt-8 flex flex-row">
+          <div>
+            <h1 class="font-bold text-[60px] text-[#5D5A88]">Donasi</h1>
+            <p class="font-light text-[18px] text-[#5D5A88]">Setiap sumbangan Anda memiliki potensi besar untuk membuat perbedaan yang nyata. </p>
+          </div>
+          <p class=" text-sm text-[#5D5A88] font-semibold font-poppins ">Lihat Semua</p>
+        </div>
+        <div className=" w-full px-[90px] py-8 relative flex sm:flex-col lg:flex-row items-center justify-center gap-4 ">
+          {DonasiCards}
+        </div>
+        <div className='px-[90px]'>
+          <div className='flex flex-col gap-4 p-8 m-4 bg-banner-podcast rounded-xl'>
+            <h1 className='text-center text-white text-3xl'>
+              Ajukan Galang Dana
+            </h1>
+            <h2 className='text-center text-white text-lg'>
+              Terbuka kesempatan bagi Anda untuk mendaftarkan Galang Dana Anda bersama kami!
+            </h2>
+            <PrimaryButton className='w-[300px] py-2 px-8 self-center'>
+              Ajukan
+            </PrimaryButton>
+          </div>
+        </div>
       </div>
     </>
   )

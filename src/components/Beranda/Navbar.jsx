@@ -11,21 +11,21 @@ export default function Navbar() {
         </p>
       </div>
       <div className="flex justify-center items-center">
-        <p className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
+        <a href='./' className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
           Beranda
-        </p>
-        <p className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
+        </a>
+        <a href="#e-learning" className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
           E-Learning
-        </p>
-        <p className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
+        </a>
+        <a href='#podcast' className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
           Podcast
-        </p>
-        <p className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
+        </a>
+        <a href="#event-kami" className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  mr-12 cl">
           Events
-        </p>
-        <p className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  ">
+        </a>
+        <a href='#donasi' className="text-[#9295A3] font-poppins text-base font-semibold text-center cursor-pointer  ">
           Donasi
-        </p>
+        </a>
         <p></p>
       </div>
       <div className="flex justify-center items-center">

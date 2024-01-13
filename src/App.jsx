@@ -1,9 +1,10 @@
-import { RouterProvider } from 'react-router-dom'
-import router from './router/router';
+// import { RouterProvider } from 'react-router-dom'
+// import router from './router/router';
+import Beranda from './pages/Beranda';
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <Beranda />
   );
 }
 
